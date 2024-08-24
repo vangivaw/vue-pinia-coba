@@ -18,7 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <router-link :to="{ name: 'home' }" class="navbar-brand">HOME</router-link>
   <div>
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
+      <li class="nav-item" style="list-style-type: none; margin: 0 40px 0 0; ">
         <router-link :to="{ name: 'posts.index' }" class="nav-link active" aria-current="page">POSTS</router-link
         >
       </li>

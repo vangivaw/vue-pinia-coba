@@ -70,7 +70,7 @@
                 <tr v-if="posts.length == 0">
                     <td colspan="4" class="text-center">
                         <div class="alert alert-danger mb-0">
-                            Data Belum Tersedia!
+                            Not added anything yet!
                         </div>
                     </td>
                 </tr>

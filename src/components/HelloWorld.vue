@@ -17,8 +17,8 @@ const counter = useCounterStore();
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>{{ counter.count }}</p>
     <div>
-      <button type="button"@click="counter.increment()">tambah</button>
-      <button type="button"@click="counter.decrement()">kurang</button>
+      <button type="button"@click="counter.increment()">increment</button>
+      <button type="button"@click="counter.decrement()">decrement</button>
     </div>
     <p>
       Edit
